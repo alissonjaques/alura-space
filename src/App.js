@@ -1,3 +1,6 @@
+import Cabecalho from './componentes/Cabecalho';
+import './styles/estilosGlobais.scss';
+
 export default function App() {
-  return <h1>Alura Space</h1>;
+  return <Cabecalho />;
 }
