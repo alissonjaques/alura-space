@@ -1,0 +1,11 @@
+{
+    "scss.lint.unknownAtRules": "ignore",
+    "cSpell.words": [
+        "cabecalho",
+        "lista",
+        "roxo",
+        "texto",
+        "truetype",
+        "variaveis"
+    ]
+}

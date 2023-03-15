@@ -1,3 +1,5 @@
+@import '../../styles/variaveis';
+
 main {
     margin: 0 24px;
   }
@@ -20,8 +22,9 @@ main {
       h1 {
         position: absolute;
         z-index: 1;
-        color: #d9d9d9;
+        color: $cor-do-texto;
         font-size: 2.5rem;
+        font-family: $fonte-bold;
         width: 401px;
         height: 144px;
         top: 75px;
