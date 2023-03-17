@@ -1,0 +1,42 @@
+[
+    {
+        "titulo": "Ínicio",
+        "creditos": "Alura Space",
+        "imagem": "assets/imagens/icones/home.png",
+        "id": "1",
+        "descricao": "Icone de uma casa",
+        "tag": "Home"
+      },
+      {
+        "titulo": "Mais Curtidas",
+        "creditos": "Alura Space",
+        "imagem": "/assets/imagens/icones/mais-curtidas.png",
+        "id": "2",
+        "descricao": "ícone de uma mão com o polegar opositor levantado",
+        "tag": "MaisCurtidas"
+      },
+      {
+        "titulo": "Mais Vistas",
+        "creditos": "Alura Space",
+        "imagem": "/assets/imagens/icones/mais-vistas.png",
+        "id": "3",
+        "descricao": "ícone de um olho",
+        "tag": "MaisVistas"
+      },
+      {
+        "titulo": "Novas",
+        "creditos": "Alura Space",
+        "imagem": "/assets/imagens/icones/novas.png",
+        "id": "4",
+        "descricao": "icone de uma estrelinha brilhante",
+        "tag": "Novas"
+      },
+      {
+        "titulo": "Surpreenda-me",
+        "creditos": "Alura Space",
+        "imagem": "/assets/imagens/icones/surpreenda-me.png",
+        "id": "4",
+        "descricao": "ícone de uma lâmpada",
+        "tag": "SurpreendaMe"
+      }
+]
