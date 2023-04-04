@@ -11,7 +11,7 @@ Projeto que representa um catálogo de imagens do universo utilizando a bibliote
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![alt text](https://github.com/alissonjaques/alura-space/blob/main/imagens/home.png)
 
-## Available Scripts
+## Scripts Disponíveis
 
 In the project directory, you can run:
 
