@@ -1,8 +1,16 @@
-import React from 'react';
-import favorito from './favorito.png';
+import { AiFillHeart } from 'react-icons/ai';
 import open from './open.png';
 
-export default function Card({foto , styles}) {
+export default function Card({foto , styles, aoFavoritar}) {
+  function favoritar() {
+    aoFavoritar(foto.id);
+  }
+
+  const propsfavorito = {
+    size: 25,
+    onClick: favoritar,
+  };
+
   return (
     <li key={foto.id} className={styles.galeria__card}>
       <img
@@ -14,7 +22,11 @@ export default function Card({foto , styles}) {
       <div>
         <p>{foto.creditos}</p>
         <span>
-          <img src={favorito} alt="ícone coração de curtir" />
+          {foto.favorito ? (
+            <AiFillHeart onClick={favoritar} {...propsfavorito} color="red" />
+          ) : (
+            <AiFillHeart onClick={favoritar} {...propsfavorito} color="white" />
+          )}
           <img src={open} alt="ícone de abrir modal" />
         </span>
       </div>

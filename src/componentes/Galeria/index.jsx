@@ -11,12 +11,21 @@ export default function Galeria() {
     const novasFotos = fotos.filter((foto) => foto.tag === tag);
     setItens(novasFotos);
   }
+
+  function resolverFavorito(id) {
+    setItens(
+      fotos.map((foto) => {
+        if (foto.id === id) foto.favorito = !foto.favorito;
+        return foto;
+      })
+    );
+  }
   
   return (
     <section className={styles.galeria}>
         <h2>Navegue pela galeria</h2>
         <Tags tags={tags} filtrarFotos={filtrarFotos} setItens={setItens}/>
-        <Cards fotos={itens} styles={styles} />
+        <Cards fotos={itens} styles={styles} aoFavoritar={resolverFavorito}/>
     </section>
   )
 }
