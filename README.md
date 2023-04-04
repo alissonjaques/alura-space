@@ -9,7 +9,7 @@ Projeto que representa um catálogo de imagens do universo utilizando a bibliote
 | :rocket: URL         | https://alura-space-tau-ten.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![alt text](https://github.com/alissonjaques/alura-space/blob/main/imagens/home.png)
+![alt text](https://github.com/alissonjaques/alura-space/blob/main/imagens/home.png#vitrinedev)
 
 ## Scripts Disponíveis
 
