@@ -13,7 +13,7 @@ Projeto que representa um catálogo de imagens do universo utilizando a bibliote
 
 ## Scripts Disponíveis
 
-In the project directory, you can run:
+No diretório do projeto, você pode executar:
 
 ### `npm start`
 
