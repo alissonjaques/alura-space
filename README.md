@@ -27,4 +27,3 @@ Você também pode ver erros de lint no console.
 
 Inicia o executor de teste no modo de observação interativo.\
 Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
-### Configuração avançada
