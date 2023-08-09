@@ -5,7 +5,7 @@ Projeto que representa um catálogo de imagens do universo utilizando a bibliote
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Alura Space**
-| :label: Tecnologias | javascritp, html, css, scss, react
+| :label: Tecnologias | javascript, html, css, scss, react
 | :rocket: URL         | https://alura-space-tau-ten.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
